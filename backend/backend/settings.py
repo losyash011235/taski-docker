@@ -1,5 +1,7 @@
-from pathlib import Path
 import os
+
+from pathlib import Path
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -8,7 +10,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['89.169.171.168', 'yphost.ddns.net','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['89.169.171.168', 'yphost.ddns.net', '127.0.0.1', 'localhost']
 
 
 # Application definition
